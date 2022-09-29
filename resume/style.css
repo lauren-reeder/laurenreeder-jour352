@@ -2,7 +2,8 @@ h1 {
     font-family: 'open sans';
     color: darkgray;
     font-weight: 400;
-
+    text-transform: uppercase;
+    text-align: center;
 }
 p{
     font-family: 'open sans';
