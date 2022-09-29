@@ -1,50 +1,59 @@
+/* styles for my resume */
+/* banner for my resume */
 title{
-    font-family: 'open sans';
+    font-family: 'open sans', Arial, sans-serif ;
     color: darkgray;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
 }
 h1 {
-    font-family: 'open sans';
+    font-family: 'open sans', Arial, sans-serif;
     color: darkgray;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
 }
+/* text style for paragraphs */
 p{
-    font-family: 'open sans';
+    font-family: 'open sans', Arial, sans-serif;
     color: darkgray;
     font-weight: 400;
 }
+/* different background color for this heading */
 h2{
-    font-family: 'open sans';
+    font-family: 'open sans', Arial, sans-serif;
     color: white;
     font-weight: 400;
     text-transform: uppercase;
     background-color: blue;
     font-size: 1.5em;
 }
+/* details for job titles */
 h3{
-    font-family: 'open sans';
+    font-family: 'open sans', Arial, sans-serif;
     color: darkgray;
     font-weight: 600;
     font-size: 1.5em;
 }
+/* this one is less bold than the job titles */
 h4{
-    font-family: 'open sans';
+    font-family: 'open sans', Arial, sans-serif;
     color: darkgray;
     font-weight: 400;
     font-size: 1.5em;
 }
+/* this one gets italicized */
 h5{
-    font-family: 'open sans';
+    font-family: 'open sans', Arial, sans-serif;
     color: darkgray;
     font-weight: 400;
     font-size: 1em;
     font-style: italic;
 }
+/* lists are important */
 ul{
     font-size: 1em;
     color: darkgray;
+    font-family: 'open sans', Arial, sans-serif;
 }
