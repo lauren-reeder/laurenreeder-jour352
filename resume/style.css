@@ -13,6 +13,8 @@ h1 {
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
+    border-bottom: 1px;
+    border-color: #33485e;
 }
 /* text style for paragraphs */
 p{
