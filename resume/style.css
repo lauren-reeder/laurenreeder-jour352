@@ -13,10 +13,12 @@ title{
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
-    border-bottom: 1px;
+    border-bottom: 1px solid;
     border-color: #33485e;
     border-width: 60%;
+    min-width: 300px;
     margin: 0 auto;
+    font-size: 96px;
 }
 /* text style for paragraphs */
 p{
@@ -29,7 +31,7 @@ p{
 }
 /* i changed the margins here */
 /* different background color for this heading */
-#sectionheader{
+.sectionheader{
     font-family: 'open sans', Arial, sans-serif;
     color: white;
     font-weight: 400;
@@ -75,6 +77,10 @@ ul{
 #menu {
     margin: 0px;
     padding: 0px;
+    text-align: center;
+}
+#menu li{
+    display: inline;
 }
 /* I changed the margin and padding for the contact list*/
 #degrees {
