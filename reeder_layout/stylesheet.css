@@ -5,4 +5,61 @@
 h1 {
     margin: 0 auto;
     width: 900px;
+    font-family: helvetica, sans-serif;
+    font-size: 35px;
+
+}
+#byline{
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+p {
+   font-family: georgia, serif;
+   font-size: 13px;
+   line-height: 1.15;
+   
+}
+img{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+figcaption{
+    font-family: georgia, serif;
+    font-size: 11px;
+    text-align: center;
+}
+h2{
+    font-family: georgia, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+h3{
+    font-family: georgia, serif;
+    font-size: 13px;
+    color: gray;
+}
+blockquote{
+    font-family: helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: green;
+    font-size: x-large;
+    margin-left: 50px; 
+padding-left: 15px; 
+border-left: 4px solid #ccc; 
+}
+ul{
+    font-family: georgia, serif;
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+}
+li{
+    font-size: 14px;
 }
