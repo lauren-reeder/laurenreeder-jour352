@@ -1,0 +1,68 @@
+#content{
+    margin: 0 auto;
+    width: 900px;
+}
+/*I decided on using Georgia and Serif as my font and back up font for headings. I like that they contrast the helvetica font. As for size, I changed each heading based on my discretion. I wanted the headline to be big and the byline small, and the subheadings to be just slightly bigger than the paragraph text*/
+h1{
+    font-family: georgia, serif;
+    font-size: 40px;
+}
+#byline{
+    font-family: georgia, serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: lighter;
+    color: gray;
+}
+h3{
+    font-family: georgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+h4{
+    font-family: georgia, serif;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+}
+p{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px;
+}
+img{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+figcaption{
+    font-family: helvetica, arial, sans-serif;
+    text-align: center;
+    font-size: 11px;
+    color: gray;
+}
+ul{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+li{
+    color: blue;
+}
+blockquote
+{
+    font-family: georgia, serif;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: green;
+    font-size: x-large;
+    margin-left: 55px;
+    border-left: 6px solid #ccc;
+    padding-left: 20px;
+    border-right: 6px solid #ccc;
+}
