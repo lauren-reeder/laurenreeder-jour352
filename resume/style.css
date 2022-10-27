@@ -45,21 +45,21 @@ p{
     width: 70%;
 }
 /* details for job titles */
-h3{
+.jobtitle{
     font-family: 'open sans', Arial, sans-serif;
     color: darkgray;
     font-weight: 600;
     font-size: 1.5em;
 }
 /* this one is less bold than the job titles */
-h4{
+.organization{
     font-family: 'open sans', Arial, sans-serif;
     color: darkgray;
     font-weight: 400;
     font-size: 1.24em;
 }
 /* this one gets italicized */
-h5{
+.date{
     font-family: 'open sans', Arial, sans-serif;
     color: darkgray;
     font-weight: 400;
