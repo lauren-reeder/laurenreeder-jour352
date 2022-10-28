@@ -13,14 +13,16 @@ title{
     font-weight: 400;
     text-transform: capitalize;
     text-align: left;
-    border: 3px solid;
-    border-radius: 15px;
+    border: 10px solid;
     border-color: skyblue;
-    border-width: 40%;
+    background: fixed;
     background-color: skyblue;
     min-width: 300px;
     margin: 0 auto;
     font-size: 55px;
+    position: absolute;
+    top: 85%;
+    left: 35%;
 }
 /* text style for paragraphs */
 .description{
@@ -29,6 +31,10 @@ title{
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 20px;
 }
 /* i changed the margins here */
 /* different background color for this heading */
@@ -39,11 +45,7 @@ title{
     text-transform: uppercase;
     font-size: 1.5em;
     width: 70%;
-    border-bottom: 1px solid;
-    border-top: 1px solid;
-    border-color: steelblue;
-    border-width: 80%;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 /* details for job titles */
@@ -52,6 +54,7 @@ title{
     color: darkgray;
     font-weight: 600;
     font-size: 1.5em;
+    text-align: center;
 }
 /* this one is less bold than the job titles */
 .organization{
@@ -59,6 +62,7 @@ title{
     color: darkgray;
     font-weight: 400;
     font-size: 1.24em;
+    text-align: center;
 } 
 /* this one gets italicized */
 .date {
@@ -68,6 +72,7 @@ title{
     font-size: 1em;
     font-style: italic;
     margin-top: 2px;
+    text-align: center;
    
 }
 /* lists are important */
@@ -81,6 +86,7 @@ title{
     margin: 0px;
     padding: 0px;
     text-align: center;
+    margin-top: 40px;
 
 }
 #menu li{
@@ -122,4 +128,13 @@ title{
 }
 body {
     background-color: ivory;
+}
+/* this is here so I can layer things on top of my header image */
+.container-two {
+    text-align: center;
+    position: relative;
+    color: ivory;
+}
+hr {
+    color: steelblue;
 }
