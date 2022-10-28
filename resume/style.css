@@ -9,40 +9,42 @@ title{
 }
 #name {
     font-family: 'open sans', Arial, sans-serif;
-    color: darkgray;
+    color: ivory;
     font-weight: 400;
-    text-transform: uppercase;
-    text-align: center;
-    border-bottom: 1px solid;
-    border-color: #33485e;
-    border-width: 60%;
+    text-transform: capitalize;
+    text-align: left;
+    border: 3px solid;
+    border-radius: 15px;
+    border-color: skyblue;
+    border-width: 40%;
+    background-color: skyblue;
     min-width: 300px;
     margin: 0 auto;
-    font-size: 96px;
+    font-size: 55px;
 }
 /* text style for paragraphs */
-p{
+.description{
     font-family: 'open sans', Arial, sans-serif;
     color: darkgray;
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin: 0px;
 }
 /* i changed the margins here */
 /* different background color for this heading */
 .sectionheader{
     font-family: 'open sans', Arial, sans-serif;
-    color: white;
+    color: steelblue;
     font-weight: 400;
     text-transform: uppercase;
-    background-color: blue;
     font-size: 1.5em;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
     width: 70%;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: steelblue;
+    border-width: 80%;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 /* details for job titles */
 .jobtitle{
@@ -57,51 +59,67 @@ p{
     color: darkgray;
     font-weight: 400;
     font-size: 1.24em;
-}
+} 
 /* this one gets italicized */
-.date{
+.date {
     font-family: 'open sans', Arial, sans-serif;
     color: darkgray;
     font-weight: 400;
     font-size: 1em;
     font-style: italic;
     margin-top: 2px;
-    margin: 0px;
+   
 }
 /* lists are important */
-ul{
+.degrees{
     font-size: 1em;
     color: darkgray;
     font-family: 'open sans', Arial, sans-serif;
+
 }
 #menu {
     margin: 0px;
     padding: 0px;
     text-align: center;
+
 }
 #menu li{
     display: inline;
 }
 /* I changed the margin and padding for the contact list*/
-#degrees {
-    margin: 0px;
+.degrees {
+    margin: 0 auto;
     margin-top: 10px;
 }
 /* I added this section to edit only my list of degrees */
-#do {
+.do {
     margin-top: 5px;
-    margin: 0px;
+    margin: 0 auto;
 }
 /* another new section!*/
 #title {
     font-weight: 600;
     text-align: center;
     margin-top: 20px;
-    margin: 0px;
+
 }
 #container {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0px;
     padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+#headphoto {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: 10px;
+}
+body {
+    background-color: ivory;
 }
