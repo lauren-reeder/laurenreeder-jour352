@@ -11,18 +11,14 @@ title{
     font-family: 'open sans', Arial, sans-serif;
     color: ivory;
     font-weight: 400;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: left;
-    border: 10px solid;
-    border-color: skyblue;
-    background: fixed;
-    background-color: skyblue;
     min-width: 300px;
     margin: 0 auto;
-    font-size: 55px;
+    font-size: 135px;
     position: absolute;
-    top: 85%;
-    left: 35%;
+    top: 25%;
+    left: 12%;
 }
 /* text style for paragraphs */
 .description{
@@ -90,7 +86,7 @@ title{
 
 }
 #menu li{
-    display: inline;
+   display: inline;
 }
 /* I changed the margin and padding for the contact list*/
 .degrees {
@@ -131,10 +127,34 @@ body {
 }
 /* this is here so I can layer things on top of my header image */
 .container-two {
-    text-align: center;
+    text-align: left;
     position: relative;
     color: ivory;
 }
 hr {
     color: steelblue;
+}
+#headshot {
+    display: block;
+    margin-right: 500px;
+    width: 31.5%;
+    padding-top: 20px;
+    padding-left: 120px;
+}
+#description {
+    text-align: left;
+    background-color: skyblue;
+    color: ivory;
+    font-size: 30px;
+    font-family: helvetica, arial, sans-serif;
+    position: absolute;
+    border: 10px solid;
+    border-color: skyblue;
+    top: 63%;
+    margin-left: 700px;
+    margin-right: 100px;
+    line-height: 1.5;
+}
+.nav-item{
+    display: inline;
 }
