@@ -6,6 +6,10 @@ p {
     padding: 15px;
     font-family: 'Inter', sans-serif;
 }
+.card-text {
+    margin-left: auto;
+    margin-right: auto;
+}
 #topper {
     border-radius: 4px;
     width: 100%;
@@ -72,9 +76,19 @@ blockquote {
     margin-right: 200px;
     padding-top: 40px;
     padding-bottom: 40px;
+    font-family: 'Inter', sans-serif;
 }
 #datawrapper-chart-Nmbsv {
     height: 50%;
     width: 50%;
 }
 
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h5 {
+    font-family: 'Playfair Display', serif;
+    color: darkred;
+}
